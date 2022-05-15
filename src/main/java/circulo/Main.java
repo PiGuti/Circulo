@@ -17,10 +17,9 @@ public class Main {
         circulo.setCoordenadaY(20);
         circulo.setRadio(4.2);
         DecimalFormat dosDigitos = new DecimalFormat("0.00");
-        salida+="\nEl diámetro es "+dosDigitos.format(circulo.obtenerDiametro());
+        salida+="\nEl diametro es "+dosDigitos.format(circulo.obtenerDiametro());
         salida+="\nLa circunferencia es "+dosDigitos.format(circulo.obtenerCircunferencia());
-        salida+="\nEl área es "+dosDigitos.format(circulo.obtenerAreaCirculo());
+        salida+="\nEl area es "+dosDigitos.format(circulo.obtenerAreaCirculo());
         System.out.println(salida);
     }
-
 }
