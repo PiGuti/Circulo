@@ -30,6 +30,7 @@ public class Circulito {
     }
     
     /**
+     * Devuelve la coordenada X
      * @return Coordenada X
      */
     public int getCoordenadaX() {
@@ -37,13 +38,15 @@ public class Circulito {
     }
 
     /**
-     * @param coordenadaX Establece la coordenada X
+     * Establece la coordenada X
+     * @param coordenadaX Coordenada X
      */
     public void setCoordenadaX(int coordenadaX) {
         this.coordenadaX = coordenadaX;
     }
 
     /**
+     * Devuelve la coordenada Y
      * @return Coordenada Y
      */
     public int getCoordenadaY() {
@@ -51,21 +54,24 @@ public class Circulito {
     }
 
     /**
-     * @param coordenadaY Establece la coordenada Y
+     * Establece la coordenada Y
+     * @param coordenadaY Coordenada Y
      */
     public void setCoordenadaY(int coordenadaY) {
         this.coordenadaY = coordenadaY;
     }
 
     /**
-     * @return Radio del circulo
+     * Devuelve el radio del circulo
+     * @return Radio
      */
     public double getRadio() {
         return radio;
     }
 
     /**
-     * @param radio Establece el tamaño del radio del circulo
+     * Establece el tamaño del radio del circulo
+     * @param radio Radio
      */
     public void setRadio(double radio) {
         this.radio=(radio < LIMITERADIO ? LIMITERADIO : radio);
